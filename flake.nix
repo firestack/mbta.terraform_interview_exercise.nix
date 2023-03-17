@@ -20,6 +20,7 @@
 						pkgs.python311
 						pkgs.colima
 						pkgs.localstack
+						pkgs.docker
 					];
 				};
 		});
