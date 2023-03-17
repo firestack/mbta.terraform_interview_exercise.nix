@@ -64,3 +64,8 @@ resource "aws_lambda_function" "test_lambda" {
   runtime = "python3.9"
 
 }
+
+resource "aws_lambda_function_url" "test_latest" {
+  function_name      = aws_lambda_function.test_lambda.function_name
+  authorization_type = "NONE"
+}
