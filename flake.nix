@@ -17,7 +17,7 @@
 				pkgs.devshell.mkShell {
 					packages = [
 						pkgs.terraform
-						pkgs.python
+						pkgs.python311
 						pkgs.colima
 						pkgs.localstack
 					];
