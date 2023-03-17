@@ -1,6 +1,7 @@
 {
 	description = "virtual environments";
 
+	inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 	inputs.devshell.url = "github:numtide/devshell";
 	inputs.flake-utils.url = "github:numtide/flake-utils";
 
